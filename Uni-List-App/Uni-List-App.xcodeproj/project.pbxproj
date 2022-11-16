@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		7D9F41442924D0CF00DB7486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41432924D0CF00DB7486 /* AppDelegate.swift */; };
 		7D9F41462924D0CF00DB7486 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41452924D0CF00DB7486 /* SceneDelegate.swift */; };
-		7D9F41482924D0CF00DB7486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41472924D0CF00DB7486 /* ViewController.swift */; };
 		7D9F414D2924D0D000DB7486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F414C2924D0D000DB7486 /* Assets.xcassets */; };
 		7D9F41502924D0D000DB7486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F414E2924D0D000DB7486 /* LaunchScreen.storyboard */; };
 		7D9F415B2924D0D000DB7486 /* Uni_List_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F415A2924D0D000DB7486 /* Uni_List_AppTests.swift */; };
 		7D9F41652924D0D000DB7486 /* Uni_List_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41642924D0D000DB7486 /* Uni_List_AppUITests.swift */; };
 		7D9F41672924D0D000DB7486 /* Uni_List_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41662924D0D000DB7486 /* Uni_List_AppUITestsLaunchTests.swift */; };
+		7D9F41832924D5A000DB7486 /* UniListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F417D2924D5A000DB7486 /* UniListRouter.swift */; };
+		7D9F41842924D5A000DB7486 /* UniListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F417D2924D5A000DB7486 /* UniListRouter.swift */; };
+		7D9F41852924D5A000DB7486 /* UniListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F417E2924D5A000DB7486 /* UniListView.swift */; };
+		7D9F41862924D5A000DB7486 /* UniListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F417E2924D5A000DB7486 /* UniListView.swift */; };
+		7D9F41872924D5A000DB7486 /* UniListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F417F2924D5A000DB7486 /* UniListInteractor.swift */; };
+		7D9F41882924D5A000DB7486 /* UniListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F417F2924D5A000DB7486 /* UniListInteractor.swift */; };
+		7D9F41892924D5A000DB7486 /* UniCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41802924D5A000DB7486 /* UniCellModel.swift */; };
+		7D9F418A2924D5A000DB7486 /* UniCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41802924D5A000DB7486 /* UniCellModel.swift */; };
+		7D9F418B2924D5A000DB7486 /* UniListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41812924D5A000DB7486 /* UniListPresenter.swift */; };
+		7D9F418C2924D5A000DB7486 /* UniListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41812924D5A000DB7486 /* UniListPresenter.swift */; };
+		7D9F418E2924D5E900DB7486 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F418D2924D5E800DB7486 /* NetworkManager.swift */; };
+		7D9F418F2924D5E900DB7486 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F418D2924D5E800DB7486 /* NetworkManager.swift */; };
+		7D9F41912924F6C000DB7486 /* UniDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41902924F6C000DB7486 /* UniDetailView.swift */; };
+		7D9F41922924F6C000DB7486 /* UniDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41902924F6C000DB7486 /* UniDetailView.swift */; };
+		7D9F41942924FA5B00DB7486 /* UniDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41932924FA5B00DB7486 /* UniDetailPresenter.swift */; };
+		7D9F41952924FA5B00DB7486 /* UniDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F41932924FA5B00DB7486 /* UniDetailPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +53,6 @@
 		7D9F41402924D0CF00DB7486 /* Uni-List-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uni-List-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9F41432924D0CF00DB7486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D9F41452924D0CF00DB7486 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D9F41472924D0CF00DB7486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D9F414C2924D0D000DB7486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D9F414F2924D0D000DB7486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D9F41512924D0D000DB7486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +61,14 @@
 		7D9F41602924D0D000DB7486 /* Uni-List-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uni-List-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9F41642924D0D000DB7486 /* Uni_List_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uni_List_AppUITests.swift; sourceTree = "<group>"; };
 		7D9F41662924D0D000DB7486 /* Uni_List_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uni_List_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D9F417D2924D5A000DB7486 /* UniListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniListRouter.swift; sourceTree = "<group>"; };
+		7D9F417E2924D5A000DB7486 /* UniListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniListView.swift; sourceTree = "<group>"; };
+		7D9F417F2924D5A000DB7486 /* UniListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniListInteractor.swift; sourceTree = "<group>"; };
+		7D9F41802924D5A000DB7486 /* UniCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniCellModel.swift; sourceTree = "<group>"; };
+		7D9F41812924D5A000DB7486 /* UniListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniListPresenter.swift; sourceTree = "<group>"; };
+		7D9F418D2924D5E800DB7486 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7D9F41902924F6C000DB7486 /* UniDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniDetailView.swift; sourceTree = "<group>"; };
+		7D9F41932924FA5B00DB7486 /* UniDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniDetailPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +121,12 @@
 			children = (
 				7D9F41432924D0CF00DB7486 /* AppDelegate.swift */,
 				7D9F41452924D0CF00DB7486 /* SceneDelegate.swift */,
-				7D9F41472924D0CF00DB7486 /* ViewController.swift */,
 				7D9F414C2924D0D000DB7486 /* Assets.xcassets */,
 				7D9F414E2924D0D000DB7486 /* LaunchScreen.storyboard */,
 				7D9F41512924D0D000DB7486 /* Info.plist */,
+				7D9F418D2924D5E800DB7486 /* NetworkManager.swift */,
+				7D9F41822924D5A000DB7486 /* UniDetailsScreen */,
+				7D9F417C2924D5A000DB7486 /* UniListScreen */,
 			);
 			path = "Uni-List-App";
 			sourceTree = "<group>";
@@ -122,6 +146,27 @@
 				7D9F41662924D0D000DB7486 /* Uni_List_AppUITestsLaunchTests.swift */,
 			);
 			path = "Uni-List-AppUITests";
+			sourceTree = "<group>";
+		};
+		7D9F417C2924D5A000DB7486 /* UniListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7D9F417D2924D5A000DB7486 /* UniListRouter.swift */,
+				7D9F417E2924D5A000DB7486 /* UniListView.swift */,
+				7D9F417F2924D5A000DB7486 /* UniListInteractor.swift */,
+				7D9F41802924D5A000DB7486 /* UniCellModel.swift */,
+				7D9F41812924D5A000DB7486 /* UniListPresenter.swift */,
+			);
+			path = UniListScreen;
+			sourceTree = "<group>";
+		};
+		7D9F41822924D5A000DB7486 /* UniDetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7D9F41902924F6C000DB7486 /* UniDetailView.swift */,
+				7D9F41932924FA5B00DB7486 /* UniDetailPresenter.swift */,
+			);
+			path = UniDetailsScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D9F41482924D0CF00DB7486 /* ViewController.swift in Sources */,
+				7D9F41942924FA5B00DB7486 /* UniDetailPresenter.swift in Sources */,
+				7D9F418E2924D5E900DB7486 /* NetworkManager.swift in Sources */,
+				7D9F418B2924D5A000DB7486 /* UniListPresenter.swift in Sources */,
+				7D9F41912924F6C000DB7486 /* UniDetailView.swift in Sources */,
 				7D9F41442924D0CF00DB7486 /* AppDelegate.swift in Sources */,
 				7D9F41462924D0CF00DB7486 /* SceneDelegate.swift in Sources */,
+				7D9F41872924D5A000DB7486 /* UniListInteractor.swift in Sources */,
+				7D9F41832924D5A000DB7486 /* UniListRouter.swift in Sources */,
+				7D9F41852924D5A000DB7486 /* UniListView.swift in Sources */,
+				7D9F41892924D5A000DB7486 /* UniCellModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9F41922924F6C000DB7486 /* UniDetailView.swift in Sources */,
+				7D9F418A2924D5A000DB7486 /* UniCellModel.swift in Sources */,
+				7D9F41862924D5A000DB7486 /* UniListView.swift in Sources */,
+				7D9F41882924D5A000DB7486 /* UniListInteractor.swift in Sources */,
+				7D9F41952924FA5B00DB7486 /* UniDetailPresenter.swift in Sources */,
+				7D9F418F2924D5E900DB7486 /* NetworkManager.swift in Sources */,
+				7D9F418C2924D5A000DB7486 /* UniListPresenter.swift in Sources */,
 				7D9F415B2924D0D000DB7486 /* Uni_List_AppTests.swift in Sources */,
+				7D9F41842924D5A000DB7486 /* UniListRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
